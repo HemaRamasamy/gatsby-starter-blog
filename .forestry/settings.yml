@@ -8,7 +8,7 @@ sections:
   path: src
   label: src
   create: all
-  match: "**/*src"
+  match: "**/*"
 - type: directory
   path: content
   label: contents
