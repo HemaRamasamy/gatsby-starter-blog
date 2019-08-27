@@ -24,5 +24,15 @@ fields:
     maxSize: 250
   label: Image
   description: child-image
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+  description: text area
 pages:
 - content/blog/starter.md
