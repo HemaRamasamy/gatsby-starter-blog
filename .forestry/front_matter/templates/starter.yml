@@ -18,5 +18,11 @@ fields:
     time_format: 
     display_utc: false
   description: Enter date
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
+  description: child-image
 pages:
 - content/blog/starter.md
